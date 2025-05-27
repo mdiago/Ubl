@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ubl.Net.Core", "NetCore\Ubl.Net.Core.csproj", "{DE0F719B-3FC5-E746-9B03-D8D00F8BE6F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE0F719B-3FC5-E746-9B03-D8D00F8BE6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0F719B-3FC5-E746-9B03-D8D00F8BE6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0F719B-3FC5-E746-9B03-D8D00F8BE6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0F719B-3FC5-E746-9B03-D8D00F8BE6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D15E6133-6C0D-465A-AABA-7C7079806883}
+	EndGlobalSection
+EndGlobal

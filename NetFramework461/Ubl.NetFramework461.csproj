@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4FEB4643-855D-4529-9449-AAA59ABBAD07}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ubl.NetFramework461</RootNamespace>
+    <AssemblyName>Ubl.NetFramework461</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\NetCore\Src\Xml\Namespaces.cs">
+      <Link>Src\Xml\Namespaces.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Address.cs">
+      <Link>Src\Xml\Oasis\Cac\Address.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\AirTransport.cs">
+      <Link>Src\Xml\Oasis\Cac\AirTransport.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\AllowanceCharge.cs">
+      <Link>Src\Xml\Oasis\Cac\AllowanceCharge.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Attachment.cs">
+      <Link>Src\Xml\Oasis\Cac\Attachment.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\BillingReference.cs">
+      <Link>Src\Xml\Oasis\Cac\BillingReference.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\BillingReferenceLine.cs">
+      <Link>Src\Xml\Oasis\Cac\BillingReferenceLine.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Branch.cs">
+      <Link>Src\Xml\Oasis\Cac\Branch.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\CardAccount.cs">
+      <Link>Src\Xml\Oasis\Cac\CardAccount.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Certificate.cs">
+      <Link>Src\Xml\Oasis\Cac\Certificate.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Clause.cs">
+      <Link>Src\Xml\Oasis\Cac\Clause.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\CommodityClassification.cs">
+      <Link>Src\Xml\Oasis\Cac\CommodityClassification.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Communication.cs">
+      <Link>Src\Xml\Oasis\Cac\Communication.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Condition.cs">
+      <Link>Src\Xml\Oasis\Cac\Condition.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Consignment.cs">
+      <Link>Src\Xml\Oasis\Cac\Consignment.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Contact.cs">
+      <Link>Src\Xml\Oasis\Cac\Contact.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Contract.cs">
+      <Link>Src\Xml\Oasis\Cac\Contract.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\CorporateRegistrationScheme.cs">
+      <Link>Src\Xml\Oasis\Cac\CorporateRegistrationScheme.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Country.cs">
+      <Link>Src\Xml\Oasis\Cac\Country.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\CreditAccount.cs">
+      <Link>Src\Xml\Oasis\Cac\CreditAccount.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\CustomerParty.cs">
+      <Link>Src\Xml\Oasis\Cac\CustomerParty.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\CustomsDeclaration.cs">
+      <Link>Src\Xml\Oasis\Cac\CustomsDeclaration.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Delivery.cs">
+      <Link>Src\Xml\Oasis\Cac\Delivery.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\DeliveryTerms.cs">
+      <Link>Src\Xml\Oasis\Cac\DeliveryTerms.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\DeliveryUnit.cs">
+      <Link>Src\Xml\Oasis\Cac\DeliveryUnit.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Despatch.cs">
+      <Link>Src\Xml\Oasis\Cac\Despatch.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\DespatchLine.cs">
+      <Link>Src\Xml\Oasis\Cac\DespatchLine.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Dimension.cs">
+      <Link>Src\Xml\Oasis\Cac\Dimension.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\DocumentReference.cs">
+      <Link>Src\Xml\Oasis\Cac\DocumentReference.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\ExchangeRate.cs">
+      <Link>Src\Xml\Oasis\Cac\ExchangeRate.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\ExternalReference.cs">
+      <Link>Src\Xml\Oasis\Cac\ExternalReference.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\FinancialAccount.cs">
+      <Link>Src\Xml\Oasis\Cac\FinancialAccount.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\FinancialInstitution.cs">
+      <Link>Src\Xml\Oasis\Cac\FinancialInstitution.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\GoodsItem.cs">
+      <Link>Src\Xml\Oasis\Cac\GoodsItem.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\GoodsItemContainer.cs">
+      <Link>Src\Xml\Oasis\Cac\GoodsItemContainer.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\HazardousGoodsTransit.cs">
+      <Link>Src\Xml\Oasis\Cac\HazardousGoodsTransit.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\HazardousItem.cs">
+      <Link>Src\Xml\Oasis\Cac\HazardousItem.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\InvoiceLine.cs">
+      <Link>Src\Xml\Oasis\Cac\InvoiceLine.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Item.cs">
+      <Link>Src\Xml\Oasis\Cac\Item.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\ItemIdentification.cs">
+      <Link>Src\Xml\Oasis\Cac\ItemIdentification.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\ItemInstance.cs">
+      <Link>Src\Xml\Oasis\Cac\ItemInstance.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\ItemLocationQuantity.cs">
+      <Link>Src\Xml\Oasis\Cac\ItemLocationQuantity.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\ItemProperty.cs">
+      <Link>Src\Xml\Oasis\Cac\ItemProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\ItemPropertyGroup.cs">
+      <Link>Src\Xml\Oasis\Cac\ItemPropertyGroup.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\ItemPropertyRange.cs">
+      <Link>Src\Xml\Oasis\Cac\ItemPropertyRange.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Language.cs">
+      <Link>Src\Xml\Oasis\Cac\Language.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\LineReference.cs">
+      <Link>Src\Xml\Oasis\Cac\LineReference.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Location.cs">
+      <Link>Src\Xml\Oasis\Cac\Location.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\LocationCoordinate.cs">
+      <Link>Src\Xml\Oasis\Cac\LocationCoordinate.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\LotIdentification.cs">
+      <Link>Src\Xml\Oasis\Cac\LotIdentification.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\MaritimeTransport.cs">
+      <Link>Src\Xml\Oasis\Cac\MaritimeTransport.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\MonetaryTotal.cs">
+      <Link>Src\Xml\Oasis\Cac\MonetaryTotal.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\OrderLineReference.cs">
+      <Link>Src\Xml\Oasis\Cac\OrderLineReference.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\OrderReference.cs">
+      <Link>Src\Xml\Oasis\Cac\OrderReference.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Package.cs">
+      <Link>Src\Xml\Oasis\Cac\Package.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Party.cs">
+      <Link>Src\Xml\Oasis\Cac\Party.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\PartyLegalEntity.cs">
+      <Link>Src\Xml\Oasis\Cac\PartyLegalEntity.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\PartyTaxScheme.cs">
+      <Link>Src\Xml\Oasis\Cac\PartyTaxScheme.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Payment.cs">
+      <Link>Src\Xml\Oasis\Cac\Payment.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\PaymentMandate.cs">
+      <Link>Src\Xml\Oasis\Cac\PaymentMandate.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\PaymentMeans.cs">
+      <Link>Src\Xml\Oasis\Cac\PaymentMeans.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\PaymentTerms.cs">
+      <Link>Src\Xml\Oasis\Cac\PaymentTerms.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Period.cs">
+      <Link>Src\Xml\Oasis\Cac\Period.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Person.cs">
+      <Link>Src\Xml\Oasis\Cac\Person.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\PhysicalAttribute.cs">
+      <Link>Src\Xml\Oasis\Cac\PhysicalAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Pickup.cs">
+      <Link>Src\Xml\Oasis\Cac\Pickup.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\PowerOfAttorney.cs">
+      <Link>Src\Xml\Oasis\Cac\PowerOfAttorney.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Price.cs">
+      <Link>Src\Xml\Oasis\Cac\Price.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\PriceExtension.cs">
+      <Link>Src\Xml\Oasis\Cac\PriceExtension.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\PriceList.cs">
+      <Link>Src\Xml\Oasis\Cac\PriceList.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\PricingReference.cs">
+      <Link>Src\Xml\Oasis\Cac\PricingReference.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\ProjectReference.cs">
+      <Link>Src\Xml\Oasis\Cac\ProjectReference.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\RailTransport.cs">
+      <Link>Src\Xml\Oasis\Cac\RailTransport.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\ReceiptLine.cs">
+      <Link>Src\Xml\Oasis\Cac\ReceiptLine.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\RoadTransport.cs">
+      <Link>Src\Xml\Oasis\Cac\RoadTransport.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\SecondaryHazard.cs">
+      <Link>Src\Xml\Oasis\Cac\SecondaryHazard.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\ServiceFrequency.cs">
+      <Link>Src\Xml\Oasis\Cac\ServiceFrequency.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\ServiceProviderParty.cs">
+      <Link>Src\Xml\Oasis\Cac\ServiceProviderParty.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Shipment.cs">
+      <Link>Src\Xml\Oasis\Cac\Shipment.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\ShipmentStage.cs">
+      <Link>Src\Xml\Oasis\Cac\ShipmentStage.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Signature.cs">
+      <Link>Src\Xml\Oasis\Cac\Signature.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\SocialMediaProfile.cs">
+      <Link>Src\Xml\Oasis\Cac\SocialMediaProfile.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Status.cs">
+      <Link>Src\Xml\Oasis\Cac\Status.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Stowage.cs">
+      <Link>Src\Xml\Oasis\Cac\Stowage.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\SupplierParty.cs">
+      <Link>Src\Xml\Oasis\Cac\SupplierParty.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\TaxCategory.cs">
+      <Link>Src\Xml\Oasis\Cac\TaxCategory.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\TaxScheme.cs">
+      <Link>Src\Xml\Oasis\Cac\TaxScheme.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\TaxSubtotal.cs">
+      <Link>Src\Xml\Oasis\Cac\TaxSubtotal.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\TaxTotal.cs">
+      <Link>Src\Xml\Oasis\Cac\TaxTotal.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\Temperature.cs">
+      <Link>Src\Xml\Oasis\Cac\Temperature.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\TradeFinancing.cs">
+      <Link>Src\Xml\Oasis\Cac\TradeFinancing.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\TransactionConditions.cs">
+      <Link>Src\Xml\Oasis\Cac\TransactionConditions.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\TransportEquipment.cs">
+      <Link>Src\Xml\Oasis\Cac\TransportEquipment.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\TransportEquipmentSeal.cs">
+      <Link>Src\Xml\Oasis\Cac\TransportEquipmentSeal.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\TransportEvent.cs">
+      <Link>Src\Xml\Oasis\Cac\TransportEvent.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\TransportHandlingUnit.cs">
+      <Link>Src\Xml\Oasis\Cac\TransportHandlingUnit.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\TransportMeans.cs">
+      <Link>Src\Xml\Oasis\Cac\TransportMeans.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\WebSite.cs">
+      <Link>Src\Xml\Oasis\Cac\WebSite.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\WebSiteAccess.cs">
+      <Link>Src\Xml\Oasis\Cac\WebSiteAccess.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cac\WorkPhaseReference.cs">
+      <Link>Src\Xml\Oasis\Cac\WorkPhaseReference.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cbc\Amount.cs">
+      <Link>Src\Xml\Oasis\Cbc\Amount.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cbc\ExemptionReason.cs">
+      <Link>Src\Xml\Oasis\Cbc\ExemptionReason.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cbc\Measure.cs">
+      <Link>Src\Xml\Oasis\Cbc\Measure.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Cbc\Quantity.cs">
+      <Link>Src\Xml\Oasis\Cbc\Quantity.cs</Link>
+    </Compile>
+    <Compile Include="..\NetCore\Src\Xml\Oasis\Invoice\Invoice.cs">
+      <Link>Src\Xml\Oasis\Invoice\Invoice.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

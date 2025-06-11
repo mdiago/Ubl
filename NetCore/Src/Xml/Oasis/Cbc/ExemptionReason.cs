@@ -62,6 +62,9 @@ namespace Ubl.Xml.Oasis.Cbc
         [XmlAttribute()]
         public string languageLocaleID { get; set; }
 
+        /// <summary>
+        /// The reason for tax being exempted, expressed as text.
+        /// </summary>
         [XmlText]
         public string Value;
 

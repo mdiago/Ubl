@@ -2,8 +2,9 @@
 
   <PropertyGroup>
     <TargetFrameworks>net7.0;net8.0;netcoreapp3.1</TargetFrameworks>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Title>Universal Business Language (UBL) </Title>
   </PropertyGroup>
 
 </Project>

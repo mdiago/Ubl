@@ -57,6 +57,5 @@ Consulta el archivo [`LICENSE`](./LICENSE) para más detalles.
 
 ¿Quieres integrar UBL en tu sistema o necesitas asesoramiento técnico sobre factura electrónica?
 
-**Autor/Organización:** [Tu nombre o marca]  
-**Web:** [URL del proyecto o empresa]  
-**Email:** [Email de contacto]
+**Autor:** Irene Solutions SL
+**Email:** info@irenesolutions.com

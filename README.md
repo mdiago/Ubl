@@ -14,7 +14,7 @@ Este proyecto tiene como objetivo facilitar el uso del estándar **UBL (Universa
 - Reglas de validación conforme a la norma europea **EN 16931**.
 - Documentación para la interoperabilidad con sintaxis Facturae, CII, Peppol BIS y EDIFACT.
 
-📘 [Borrador del Real Decreto (PDF)]((https://github.com/mdiago/Ubl/blob/main/NetFramework/Doc/ECO_Pol_AP2_RD_factura_electronica.pdf))
+📘 [Borrador del Real Decreto (PDF)](https://github.com/mdiago/Ubl/blob/main/NetFramework/Doc/ECO_Pol_AP2_RD_factura_electronica.pdf)
 
 ## 🏛️ Contexto normativo
 
